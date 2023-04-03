@@ -1,0 +1,89 @@
+.section1 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  margin-top: 500px;
+  color: #000;
+  flex-direction: column;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+.header-text h2 {
+}
+.header-text h3 {
+  font-size: 16px;
+  align-content: center;
+  text-align: center;
+  color: #3339;
+}
+.screens {
+  width: 80%;
+  margin: 100px 0;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.screens img {
+}
+
+.screens .description {
+  background: linear-gradient(90deg, #6cccf8 0%, #dcd4d4 100%);
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 1 83px;
+  padding: 83px 70px;
+  cursor: pointer;
+  border-radius: 57% 43% 43% 57% / 43% 43% 57% 57%;
+  box-shadow: inset 0 0 15px rgba(206, 174, 174, 0.2),
+    0 0 15px rgba(149, 165, 218, 0.409);
+  transition: 0.4s ease-in-out;
+  animation: 5s linear 0s infinite bubbleEffect;
+}
+.screens .description:hover {
+  border-radius: 50%;
+  box-shadow: inset 0 0 15px rgba(206, 174, 174, 0.2),
+    0 0 15px rgba(149, 165, 218, 0.409);
+  transition: 0.4s ease-in-out;
+}
+
+.screens .description h1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.screens .description p {
+  text-align: center;
+}
+#image2 {
+  width: 60%;
+  height: 600px;
+}
+
+@keyframes bubbleEffect {
+  0% {
+    border-radius: 57% 43% 43% 57% / 43% 43% 57% 57%;
+  }
+  40% {
+    border-radius: 25% 75% 70% 30% / 31% 60% 40% 69%;
+  }
+  80% {
+    border-radius: 65% 35% 35% 65% / 59% 33% 67% 41%;
+  }
+  100% {
+    border-radius: 57% 43% 43% 57% / 43% 43% 57% 57%;
+  }
+}
