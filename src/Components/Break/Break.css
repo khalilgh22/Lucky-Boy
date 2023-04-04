@@ -1,0 +1,20 @@
+.break {
+  background-image: url(../../assets/bakcground-image.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+  width: 100%;
+}
+.break h1 {
+  display: flex;
+  position: relative;
+  color: #fff;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: right;
+  height: 100%;
+  letter-spacing: 2rem;
+  right: 80px;
+}

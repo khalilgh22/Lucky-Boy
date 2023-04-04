@@ -1,0 +1,17 @@
+.card {
+  background-color: #fff;
+  width: 346px;
+  height: 540px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  width: 320px;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
