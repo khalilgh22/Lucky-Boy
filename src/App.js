@@ -14,7 +14,6 @@ function App() {
       <Landpage />
       <AppSection />
       <Break />
-      <AppSection />
       <Products />
     </div>
   );

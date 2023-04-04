@@ -1,17 +1,47 @@
 .card {
-  background-color: #fff;
-  width: 346px;
+  background-color: #fafafa;
+  width: 360px;
   height: 540px;
   display: flex;
   position: relative;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  border: transparent;
+  border-radius: 0;
+  display: flex;
+  /* align-items: end; */
+  flex-direction: column;
 }
 .card img {
-  width: 320px;
+  width: 440px;
+  position: absolute;
+  top: -105px;
+  transition: 0.5s;
 }
 .card-info {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+}
+.card-info h3 {
+  margin: 0;
+}
+.card-info p {
+  margin: 0 0;
+  color: #11dbd2;
+}
+.card-info h4 {
+  margin: 16px 0;
+  background: #0de9df;
+  color: #fff;
+  /* width: 115px; */
+  padding: 10px 32px;
+  font-size: 16px;
+}
+.card:hover img {
+  top: -125px;
+}
+.card:hover {
+  box-shadow: 0 0 5px #aaa;
 }
