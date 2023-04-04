@@ -6,6 +6,8 @@ import Landpage from "./Components/landpage/Landpage";
 import AppSection from "./Components/AppSection/AppSection";
 import Break from "./Components/Break/Break";
 import Products from "./Components/Products/Products";
+import About from "./Components/About/About";
+import Scene from "./Components/Scene/Scene";
 
 function App() {
   const fstBreakText = "Our Products";
@@ -18,6 +20,8 @@ function App() {
       <Break content={fstBreakText} />
       <Products />
       <Break content={sndBreakText} />
+      <About />
+      <Scene />
     </div>
   );
 }

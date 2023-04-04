@@ -18,3 +18,16 @@
   letter-spacing: 1rem;
   right: 80px;
 }
+.break:last-child {
+  background-image: url(../../assets/backgroun-image2.jpg);
+  background-size: cover;
+}
+
+.break:last-child h1 {
+  color: #fff;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: right;
+  height: 100%;
+  letter-spacing: 1rem;
+}

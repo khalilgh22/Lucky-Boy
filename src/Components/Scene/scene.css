@@ -1,0 +1,34 @@
+.scene {
+  height: 112vh;
+  display: flex;
+  justify-content: space-between;
+}
+.row-one {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.row-one img {
+  max-width: 620px;
+}
+.row-one .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.row-one .bottom img {
+  max-width: 300px;
+}
+.middle {
+  height: 100%;
+  max-width: 308px;
+}
+.last-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px 0;
+  justify-content: space-between;
+}
+.last-row img {
+  max-width: 306px;
+}

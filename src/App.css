@@ -1,4 +1,4 @@
-.break:last-child {
+.break:nth-last-child(3) {
   background-image: url(./assets/backgroun-image2.jpg);
   background-size: cover;
 }
