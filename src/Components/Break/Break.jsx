@@ -1,11 +1,10 @@
 import React from "react";
 import "./Break.css";
-import Bg_image from "../../assets/bakcground-image.jpg";
 
-const Break = () => {
+const Break = ({ content }) => {
   return (
     <div className="break">
-      <h1>BE ALIVE</h1>
+      <h1>{content}</h1>
     </div>
   );
 };

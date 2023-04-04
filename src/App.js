@@ -8,13 +8,16 @@ import Break from "./Components/Break/Break";
 import Products from "./Components/Products/Products";
 
 function App() {
+  const fstBreakText = "Our Products";
+  const sndBreakText = "your Products";
   return (
     <div>
       <Navigation />
       <Landpage />
       <AppSection />
-      <Break />
+      <Break content={fstBreakText} />
       <Products />
+      <Break content={sndBreakText} />
     </div>
   );
 }

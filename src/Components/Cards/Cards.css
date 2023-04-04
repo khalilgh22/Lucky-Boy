@@ -1,7 +1,7 @@
 .card {
   background-color: #fafafa;
-  width: 360px;
-  height: 540px;
+  width: 25%;
+  height: 75%;
   display: flex;
   position: relative;
   justify-content: flex-end;
@@ -13,9 +13,9 @@
   flex-direction: column;
 }
 .card img {
-  width: 440px;
+  width: 100%;
   position: absolute;
-  top: -105px;
+  top: -100px;
   transition: 0.5s;
 }
 .card-info {
