@@ -1,5 +1,5 @@
 .scene {
-  height: 112vh;
+  height: 110vh;
   display: flex;
   justify-content: space-between;
 }
@@ -8,27 +8,29 @@
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
+  width: 50%;
 }
 .row-one img {
-  max-width: 620px;
+  max-width: 100%;
 }
 .row-one .bottom {
   display: flex;
   justify-content: space-between;
 }
 .row-one .bottom img {
-  max-width: 300px;
+  max-width: 48%;
 }
 .middle {
   height: 100%;
-  max-width: 308px;
+  max-width: 20%;
 }
 .last-row {
   display: flex;
   flex-direction: column;
   margin-top: 62px 0;
   justify-content: space-between;
+  width: 25%;
 }
 .last-row img {
-  max-width: 306px;
+  /* max-width: 306px; */
 }
